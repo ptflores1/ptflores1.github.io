@@ -18,6 +18,13 @@ gulp.task('html', function() {
     .pipe(browserSync.stream());
 });
 
+gulp.task('config-files', function() {
+  return gulp
+    .src(['./_config.yml', './CNAME'])
+    .pipe(gulp.dest('./build/'))
+    .pipe(browserSync.stream());
+});
+
 gulp.task(
   'serve',
   gulp.series('sass', function() {
@@ -32,4 +39,4 @@ gulp.task(
   }),
 );
 
-gulp.task('default', gulp.series('sass', 'html', 'serve'));
+gulp.task('default', gulp.series('config-files', 'sass', 'html', 'serve'));
