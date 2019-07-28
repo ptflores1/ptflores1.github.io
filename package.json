@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/ptflores1/ptflores1.github.io/issues"
   },
-  "homepage": "https://github.com/ptflores1/ptflores1.github.io#readme"
+  "homepage": "https://github.com/ptflores1/ptflores1.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-uglify": "^3.0.2"
+  }
 }
