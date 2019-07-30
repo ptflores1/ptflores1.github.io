@@ -28,30 +28,10 @@
     width: 100%;
   }
   &__polygon {
-    width: auto;
-    height: 100%;
-  }
-  &__polygon-wrapper {
-    overflow: hidden;
     position: absolute;
     right: 0;
-    bottom: -25vw;
-    width: 25vw;
-    height: 50vw;
-    margin: 0;
-    padding: 0;
+    bottom: -30vw;
     z-index: -1;
+    width: 35vw;
   }
-  //   &::after {
-  //     position: absolute;
-  //     content: '';
-  //     display: block;
-  //     background: url('../assets/Polygon1.svg');
-  //     background-size: 50vw 50vw;
-  //     width: 50vw;
-  //     height: 50vw;
-  //     right: -25vw;
-  //     bottom: -25vw;
-  //     z-index: -1;
-  //   }
 }
