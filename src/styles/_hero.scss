@@ -40,7 +40,7 @@
   }
   &::before {
     content: '';
-    background: url('../assets/hero_small.png');
+    background: url('../assets/hero_small.png') no-repeat;
     top: 0;
     left: 0;
     bottom: 0;

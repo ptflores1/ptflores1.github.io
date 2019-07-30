@@ -1,7 +1,8 @@
 a {
   text-decoration: none;
+  color: $secondary-text-light;
   &:visited {
-    color: inherit;
+    color: $secondary-text-light;
   }
 }
 * {
