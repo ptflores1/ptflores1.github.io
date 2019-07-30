@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  &:visited {
+    color: inherit;
+  }
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}

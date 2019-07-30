@@ -4,9 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Pablo Flores</title>
   </head>
   <body>
-    <h1>Pablo Flores</h1>
+    <header class="header">
+      <nav class="header__nav">
+        <a href="#about">About me</a>
+        <a href="#academia">Academia</a>
+        <a href="#related">Related Activities</a>
+      </nav>
+
+      <!-- <picture>
+        <source media="(max-width: 300px)" srcset="assets/hero_small.png" />
+        <img src="assets/hero_big.png" alt="" />
+      </picture> -->
+      <div class="header__text">
+        <h1 class="header__title">Hi ! I'm Pablo.</h1>
+        <h2 class="header__subtitle">A computer science student.</h2>
+      </div>
+      <div class="header__social">
+        <a href="https://github.com/ptflores1" class="header__github">
+          <svg xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.6236 0.75386C5.99099 0.75386 0.618896 6.10759 0.618896 12.7108C0.618896 17.9948 4.05823 22.4757 8.82709 24.055C9.42732 24.1676 9.64741 23.7979 9.64741 23.4801C9.64741 23.1961 9.63741 22.4438 9.6324 21.4474C6.29311 22.1688 5.58883 19.8432 5.58883 19.8432C5.04262 18.4631 4.25331 18.0945 4.25331 18.0945C3.16589 17.3531 4.33734 17.3681 4.33734 17.3681C5.54281 17.4518 6.17606 18.5996 6.17606 18.5996C7.24648 20.4281 8.98615 19.9 9.67242 19.5941C9.78046 18.8208 10.0896 18.2937 10.4327 17.9948C7.76668 17.6959 4.96459 16.6676 4.96459 12.0861C4.96459 10.7808 5.42977 9.71461 6.20007 8.87762C6.06502 8.57571 5.65986 7.36009 6.30511 5.71301C6.30511 5.71301 7.3105 5.39217 9.60639 6.9386C10.5668 6.67256 11.5872 6.54103 12.6076 6.53505C13.628 6.54103 14.6484 6.67256 15.6087 6.9386C17.8896 5.39217 18.895 5.71301 18.895 5.71301C19.5403 7.36009 19.1351 8.57571 19.0151 8.87762C19.7804 9.71461 20.2455 10.7808 20.2455 12.0861C20.2455 16.6795 17.4394 17.6909 14.7684 17.9848C15.1886 18.3436 15.5787 19.0769 15.5787 20.1969C15.5787 21.7971 15.5637 23.0825 15.5637 23.4711C15.5637 23.785 15.7738 24.1586 16.389 24.0391C21.1919 22.4707 24.6282 17.9868 24.6282 12.7108C24.6282 6.10759 19.2531 0.75386 12.6236 0.75386Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <h2 class="about__title">About me</h2>
+        <p class="about__text">
+          As I said I’m a computer engeenering student at Pontifical Catholic
+          University of Chile since 2016. My main interest in computer science
+          is data science. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="about__background">
+          <div class="about__rect"></div>
+          <img class="about__flow" src="assets/flow.svg" alt="" />
+        </div>
+        <div class="about__polygon-wrapper">
+          <img class="about__polygon" src="assets/polygon1.svg" alt="" />
+        </div>
+      </section>
+      <section class="academia" id="academia">
+        <h2>Academia</h2>
+        <div class="tas">
+          <h3>Teacher Assistances</h3>
+          <article>
+            <h4>Introduction to Programming</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>2018-1 2018-2</p>
+          </article>
+          <article>
+            <h4>Advanced Programming</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>2018-2</p>
+          </article>
+        </div>
+        <div class="research">
+          <h3>Research</h3>
+          <article>
+            <h4>Undergraduate Research</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>2018-2</p>
+          </article>
+          <article>
+            <h4>Other Research</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>2019-1 2019-2</p>
+          </article>
+        </div>
+      </section>
+      <section class="related" id="related">
+        <h2>Related Activities</h2>
+        <article class="progcomp">
+          <h3>Competitive Programming Team</h3>
+          <img src="assets/progComp.jpg" alt="My Team" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </article>
+        <article class="comp-thinking">
+          <h3>Computational Thinking Bootcamp</h3>
+          <img src="assets/compThinking.jpeg" alt="Staff" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </article>
+      </section>
+    </main>
   </body>
 </html>

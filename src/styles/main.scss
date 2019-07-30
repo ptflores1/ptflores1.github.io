@@ -1,8 +1,5 @@
-$dark-color: #333333;
-
-body {
-  background: $dark-color;
-}
-h1 {
-  color: orange;
-}
+@import 'variables.scss';
+@import 'globals.scss';
+@import 'clear.scss';
+@import 'hero.scss';
+@import 'about.scss';
