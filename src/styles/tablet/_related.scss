@@ -23,5 +23,15 @@
     &__description {
       flex: 6 6 0;
     }
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      &__top {
+        transform: translateY(-100.2%);
+      }
+    }
+    @-moz-document url-prefix() {
+      &__top {
+        transform: translateY(-100%);
+      }
+    }
   }
 }
