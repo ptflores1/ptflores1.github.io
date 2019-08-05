@@ -12,23 +12,23 @@
     justify-content: space-between;
 
     padding: 3vh 3vw 0 3vw;
-    font-size: 4vw;
+    font-size: 4vmin;
     color: $secondary-text-light;
   }
 
   &__text {
     position: absolute;
-    bottom: 15%;
+    bottom: 15vmin;
     width: 100%;
     padding: 6%;
   }
 
   &__title {
-    font-size: 12vw;
+    font-size: 12vmin;
     color: $primary-text-light;
   }
   &__subtitle {
-    font-size: 7vw;
+    font-size: 7vmin;
     color: $secondary-text-light;
   }
 

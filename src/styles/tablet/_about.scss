@@ -1,0 +1,22 @@
+.about {
+  @media (min-width: 600px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__title {
+      text-align: center;
+      font-size: 8vmin;
+      margin-bottom: 0 auto;
+      display: block;
+      flex: 2 2 0;
+    }
+    &__text {
+      line-height: 4.5vmin;
+      font-size: 3vmin;
+      flex: 3 3 0;
+      display: block;
+    }
+  }
+}

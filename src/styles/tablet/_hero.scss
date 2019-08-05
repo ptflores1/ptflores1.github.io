@@ -1,0 +1,9 @@
+.header {
+  @media (min-width: 600px) {
+    &::before {
+      background: url('../assets/hero_big.png') no-repeat;
+      background-size: cover;
+      transform: scaleX(-1);
+    }
+  }
+}

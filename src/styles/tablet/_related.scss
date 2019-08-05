@@ -1,0 +1,27 @@
+.related {
+  @media (min-width: 600px) {
+    padding: 0 10%;
+    &__article-content {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      padding: 10px;
+      & > * {
+        margin: 10px;
+      }
+      &--reverse {
+        flex-direction: row-reverse;
+      }
+    }
+    &__article-title {
+      padding-left: 5px;
+    }
+    &__img {
+      flex: 4 4 0;
+      width: 40%;
+    }
+    &__description {
+      flex: 6 6 0;
+    }
+  }
+}

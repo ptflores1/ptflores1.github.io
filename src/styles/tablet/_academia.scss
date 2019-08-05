@@ -1,0 +1,13 @@
+.academia {
+  @media (min-width: 600px) {
+    margin: 150px 0;
+    padding: 0 10%;
+    &__content {
+      display: flex;
+      flex-direction: row;
+    }
+    &__tas {
+      margin-right: 50px;
+    }
+  }
+}
